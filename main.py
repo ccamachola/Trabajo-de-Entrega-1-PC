@@ -17,7 +17,6 @@ def buscar():
     b = input("digite 1 para busqueda exacta y 2 para busqueda extendida: ")
     
     if b == "1": 
-        print("jjhjh")
         for linea in mis_datos:
             for celda in linea:
                 if float(a) == float(celda):
